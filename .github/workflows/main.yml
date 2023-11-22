@@ -53,4 +53,13 @@ jobs:
           # push it to ECR so that it can
           # be deployed to ECS.
           docker build -t ${{ secrets.AWS_ECR_REPO_URI }}:$IMAGE_TAG .
+<<<<<<< HEAD
           docker push ${{ secrets.AWS_ECR_REPO_URI }}:$IMAGE_TAG
+=======
+          docker push ${{ secrets.AWS_ECR_REPO_URI }}:$IMAGE_TAG
+      with:
+        task-definition: ${{ steps.task-def.outputs.task-definition }}
+        service: ${{ env.ECS_SERVICE }}
+        cluster: ${{ env.ECS_CLUSTER }}
+        wait-for-service-stability: true
+>>>>>>> 8099c37e198ba536134c18a847b0e8a6f6d7d330
