@@ -27,3 +27,8 @@ ___
 * The XGBClassifier performed the best with an accuracy score of 83%.
 * Used Flask to build the web app.
 * Built CI/CD pipeline with GitHub actions & deployed it through AWS App Runner.
+___
+
+### Snapshot of the web app:
+![Screenshot (135)](https://github.com/AnonymousSurya/Credit_Card_Fault_Detection/assets/76435009/538cd824-1dff-4ffc-8e89-a36fd7404f8e)
+
