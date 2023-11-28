@@ -23,7 +23,7 @@ ___
 * The objective of this project is to determine whether a credit card default will occur or not.
 * The database used in the project was MongoDB. Performed Exploratory data analysis on the dataset.
 * Built components & pipelines in modular format. 
-* Used XGBClassifier, Random forest, SVC, GaussianNB & GradientBoostingClassifier for model training.
+* Used models such as: XGBClassifier, Random forest, SVC, GaussianNB & GradientBoostingClassifier prediction purpose.
 * The XGBClassifier performed the best with an accuracy score of 83%.
 * Used Flask to build the web app.
 * Built CI/CD pipeline with GitHub actions & deployed it through AWS App Runner.
