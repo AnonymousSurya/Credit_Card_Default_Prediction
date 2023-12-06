@@ -1,4 +1,4 @@
-## "Credit card fault detection" Project.
+## "Credit card default prediction" Project.
 ___
 
 
